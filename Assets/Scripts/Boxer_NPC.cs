@@ -13,6 +13,8 @@ public class Boxer_NPC : Boxer
 	public new void Start(){
 		base.Start();
 		Debug.Log(isPosition(0));
-		SetPositionBack();
+		SetPosition(2);
 	}
+
+	
 }
